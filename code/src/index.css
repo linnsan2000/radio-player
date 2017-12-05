@@ -3,3 +3,35 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+img {
+  width: 30%;
+  margin: 10px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 45%;
+}
+
+.radioBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 80%;
+}
+
+audio, a, h1, p {
+  margin: 10px;
+}
