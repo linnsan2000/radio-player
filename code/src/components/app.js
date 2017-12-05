@@ -23,6 +23,10 @@ class App extends React.Component {
     if (this.state.channels.length > 0) {
       return (
         <div>
+          <div className="logga">
+            <img src="http://sverigesradio.se/kvinnoregistret/assets/images/sr-logo-white.png" id="logo"/>
+            <h2 id="tag">Lyssna på alla våra radiokanaler här</h2>
+          </div>
           <div className="page">
             {this.state.channels.map((item) => {
               return <Stations key={item.id}
