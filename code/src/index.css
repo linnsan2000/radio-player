@@ -37,6 +37,10 @@ audio, a, h1, p, h3 {
   margin: 10px;
 }
 
+p {
+  color: white;
+}
+
 #tag {
   color: white;
 }
